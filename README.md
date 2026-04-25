@@ -1,46 +1,104 @@
-# Getting Started with Create React App
+# Expense Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A clean and minimal expense tracking web application built to manage daily spending during a real world trip.
 
-## Available Scripts
+Originally created during an Indore to Omkareshwar journey, this project evolved from a simple utility into a structured and reusable web application.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This application allows users to:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* Add and manage expenses
+* Track total expenditure in real time
+* Organize spending efficiently
+* Maintain a clear financial record
 
-### `npm test`
+The focus is on simplicity, usability, and a clean user interface.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* React.js
+* JavaScript
+* Tailwind CSS
+* HTML and CSS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Features
 
-### `npm run eject`
+* Add expense entries with details
+* Dynamic total calculation
+* Responsive and clean UI
+* Component based architecture
+* Easily extendable codebase
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Project Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+expense-tracker/
+│
+├── public/          Static assets
+├── src/             Application logic and components
+├── .gitignore       Ignored files and data
+├── package.json     Dependencies and scripts
+└── README.md        Documentation
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+## Getting Started
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Clone the repository:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+git clone https://github.com/tanishhhk/expense-tracker.git
+cd expense-tracker
+```
+
+Install dependencies:
+
+```
+npm install
+```
+
+Run the application:
+
+```
+npm start
+```
+
+---
+
+## Important Note
+
+This repository does not include any personal or real expense data.
+All sensitive files such as `.env`, `.csv`, and `.xlsx` are excluded.
+
+---
+
+## Future Improvements
+
+* Authentication system
+* Cloud based storage
+* Expense analytics and visualizations
+* Export and reporting features
+* Mobile experience improvements
+
+---
+
+## Motivation
+
+This project started as a practical solution during a trip and became an exercise in building a usable product. It reflects the process of converting a real life problem into a structured application.
+
+---
+
+## Author
+
+Tanishk
+https://github.com/tanishhhk
