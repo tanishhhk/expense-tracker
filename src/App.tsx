@@ -191,10 +191,10 @@ function ExpenseForm({ members, onAdd }: ExpenseFormProps) {
   const [selected, setSelected] = useState<string[]>(() => members.map((m: Member) => m.id));
   const [customSplits, setCustomSplits] = useState<Record<string, string>>({});
 
-  useEffect(() => {
-    setPayerId(members[0]?.id || '');
-    setSelected(members.map((m: Member) => m.id));
-  }, [members.length]);
+useEffect(() => {
+  setPayerId(members[0]?.id || '');
+  setSelected(members.map((m) => m.id));
+}, [members]);
 
   const toggleSelected = (id: string) => {
     setSelected((prev: string[]) => prev.includes(id) ? prev.filter(x => x !== id) : [...prev, id]);
